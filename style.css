@@ -1250,7 +1250,21 @@ footer {
 .btn-secondary:active {
     transform: translateY(0);
 }
+.certificate-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
 
+.certificate-link:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
 /* Step 4 — Focus state */
 .btn-primary:focus-visible,
 .btn-secondary:focus-visible {
