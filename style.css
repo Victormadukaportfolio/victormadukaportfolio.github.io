@@ -1270,3 +1270,21 @@ footer {
 .btn-secondary:focus-visible {
     box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.4);
 }
+/* ================= CERTIFICATE BUTTON ================= */
+
+.certificate-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--primary);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.certificate-link:hover {
+  background: #ffffff;
+  color: var(--primary);
+  transform: translateY(-2px);
+}
