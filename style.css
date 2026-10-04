@@ -1284,7 +1284,7 @@ footer {
 }
 
 .certificate-link:hover {
-  background: #ffffff;
-  color: var(--primary);
+  background: var(--primary);
+  color: #ffffff;
   transform: translateY(-2px);
 }
